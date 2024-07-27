@@ -1,5 +1,8 @@
 package vincent.leetcode.longestPalindrome;
 
+/**
+ * LeetCode #5
+ */
 public class LongestPalindrome {
     public String longestPalindrome(String s) {
         char[] charArray = s.toCharArray();
@@ -43,6 +46,6 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         LongestPalindrome longestPalindrome = new LongestPalindrome();
-        longestPalindrome.longestPalindrome("daba");
+        longestPalindrome.longestPalindrome("dcbbda");
     }
 }
